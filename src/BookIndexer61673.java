@@ -10,7 +10,7 @@ import java.util.HashMap;
 import java.util.HashSet;
 
 
-public class BookIndexer61673 {
+public class BookIndexer61673 implements IBookIndexer{
 	
 	private HashMap<String, ArrayList<Integer>> mHashMap = new HashMap<>();
     private HashMap<String, HashSet<Integer>> mFastContainingCheckMap = new HashMap<>();
